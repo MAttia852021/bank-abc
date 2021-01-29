@@ -5,11 +5,11 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.abcbank.accountservices.controller.request.TransferBetweenAccountsReq;
+import com.abcbank.accountservices.entity.Account;
+import com.abcbank.accountservices.entity.Transaction;
+import com.abcbank.accountservices.repository.TransferBetweenAccountsRepository;
 import com.abcbank.accountservices.util.exception.EntityNotFoundException;
 import com.abcbank.accountservices.util.exception.InsufficientFundsException;
-import com.bankabc.accountservices.entity.Account;
-import com.bankabc.accountservices.entity.Transaction;
-import com.bankabc.accountservices.repository.TransferBetweenAccountsRepository;
 
 @Service
 public class TransferBetweenAccountsService {

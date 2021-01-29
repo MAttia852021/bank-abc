@@ -29,9 +29,9 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.ResultActions;
 
 import com.abcbank.accountservices.controller.AccountController;
+import com.abcbank.accountservices.entity.Account;
 import com.abcbank.accountservices.service.AccountService;
 import com.abcbank.accountservices.util.assembler.AccountModelAssembler;
-import com.bankabc.accountservices.entity.Account;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @WebMvcTest(controllers = AccountController.class)

@@ -1,4 +1,4 @@
-package com.bankabc.accountservices.entity;
+package com.abcbank.accountservices.entity;
 
 import java.math.BigDecimal;
 import java.util.Currency;

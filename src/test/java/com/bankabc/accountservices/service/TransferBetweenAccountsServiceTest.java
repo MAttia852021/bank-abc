@@ -16,12 +16,12 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import com.abcbank.accountservices.controller.request.TransferBetweenAccountsReq;
+import com.abcbank.accountservices.entity.Account;
+import com.abcbank.accountservices.entity.Transaction;
+import com.abcbank.accountservices.repository.TransferBetweenAccountsRepository;
 import com.abcbank.accountservices.service.AccountService;
 import com.abcbank.accountservices.service.TransferBetweenAccountsService;
 import com.abcbank.accountservices.util.exception.InsufficientFundsException;
-import com.bankabc.accountservices.entity.Account;
-import com.bankabc.accountservices.entity.Transaction;
-import com.bankabc.accountservices.repository.TransferBetweenAccountsRepository;
 
 @ExtendWith(MockitoExtension.class)
 public class TransferBetweenAccountsServiceTest {

@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.abcbank.accountservices.entity.Account;
 import com.abcbank.accountservices.service.AccountService;
 import com.abcbank.accountservices.util.assembler.AccountModelAssembler;
-import com.bankabc.accountservices.entity.Account;
 
 @RestController
 public class AccountController {

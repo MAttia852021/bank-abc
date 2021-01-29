@@ -21,9 +21,9 @@ import org.springframework.test.web.servlet.MvcResult;
 
 import com.abcbank.accountservices.controller.TransaferBetweenAccountsController;
 import com.abcbank.accountservices.controller.request.TransferBetweenAccountsReq;
+import com.abcbank.accountservices.entity.Account;
+import com.abcbank.accountservices.entity.Transaction;
 import com.abcbank.accountservices.service.TransferBetweenAccountsService;
-import com.bankabc.accountservices.entity.Account;
-import com.bankabc.accountservices.entity.Transaction;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @WebMvcTest(controllers = TransaferBetweenAccountsController.class)

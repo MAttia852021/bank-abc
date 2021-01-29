@@ -16,10 +16,10 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+import com.abcbank.accountservices.entity.Account;
+import com.abcbank.accountservices.repository.AccountRepository;
 import com.abcbank.accountservices.service.AccountService;
 import com.abcbank.accountservices.util.exception.EntityNotFoundException;
-import com.bankabc.accountservices.entity.Account;
-import com.bankabc.accountservices.repository.AccountRepository;
 
 @ExtendWith(MockitoExtension.class)
 public class AccountServiceTest {

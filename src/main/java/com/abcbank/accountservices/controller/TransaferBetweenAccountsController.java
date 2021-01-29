@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.abcbank.accountservices.controller.request.TransferBetweenAccountsReq;
+import com.abcbank.accountservices.entity.Transaction;
 import com.abcbank.accountservices.service.TransferBetweenAccountsService;
-import com.bankabc.accountservices.entity.Transaction;
 
 @RestController
 public class TransaferBetweenAccountsController {

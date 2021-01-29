@@ -4,9 +4,9 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import com.abcbank.accountservices.entity.Account;
+import com.abcbank.accountservices.repository.AccountRepository;
 import com.abcbank.accountservices.util.exception.EntityNotFoundException;
-import com.bankabc.accountservices.entity.Account;
-import com.bankabc.accountservices.repository.AccountRepository;
 
 @Service
 public class AccountService {

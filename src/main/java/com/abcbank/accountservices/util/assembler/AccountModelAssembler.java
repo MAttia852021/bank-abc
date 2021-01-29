@@ -8,7 +8,7 @@ import org.springframework.hateoas.server.RepresentationModelAssembler;
 import org.springframework.stereotype.Component;
 
 import com.abcbank.accountservices.controller.AccountController;
-import com.bankabc.accountservices.entity.Account;
+import com.abcbank.accountservices.entity.Account;
 
 
 
