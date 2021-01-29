@@ -7,7 +7,7 @@
 * [References](#references)
 
 ## General Info
-This APIs expose account services that will enable the consumer to create, access and update accounts in addition to transfer funds between them.
+These APIs expose account services that will enable the consumer to create, access and update accounts in addition to transfer funds between them.
 
 
 
